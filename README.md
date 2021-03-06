@@ -1,6 +1,7 @@
 ### [YCS_GG](https://www.luogu.com.cn/user/46099)的做题记录
 
 #### Updates:
+- 2021.03.06 [P4717](archieve/P4717/Solution.md) [P6623](archieve/P6623/Solution.md)
 - 2021.03.05 [P3705](archieve/P3705/Solution.md)
 - 2021.03.04 [P4213](archieve/P4213/Solution.md) [P3768](archieve/P3768/Solution.md) [P5290](archieve/P5290/Solution.md)
 - 2021.03.03 [P5363](archieve/P5363/Solution.md) [P5358](archieve/P5358/Solution.md) [P4691](archieve/P4691/Solution.md)
