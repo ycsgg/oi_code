@@ -2,5 +2,5 @@
 *.out
 *.sh
 *.tar
-/old/*
+/old
 *.tmpout
