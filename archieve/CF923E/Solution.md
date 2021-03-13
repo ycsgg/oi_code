@@ -30,7 +30,7 @@ $m$次操作仅需$m$次幂即可
 
 然后我们需要快速的从$g_i^k$变成$f_i^k$(为了方便以下省略$k$)
 
-$G=\sum g_ix^i=\sum f_i(x+1)^i=\sum f_i\sum\binom{i}{j}x^i$提取一下
+$G=\sum g_ix^i=\sum f_i(x+1)^i=\sum f_i\sum\binom{i}{j}x^j$提取一下
 
 $g_i=\sum\limits_{j=i}^n\binom{j}{i}f_j$
 
@@ -93,3 +93,4 @@ int main() {
     }
 }
 ```
+
