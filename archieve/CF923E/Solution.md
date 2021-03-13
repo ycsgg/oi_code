@@ -1,5 +1,11 @@
 ### CF923E Perpetual Subtraction
 
+--update 2021.02.03--
+
+修正二项式反演的一个笔误
+
+#### Solution
+
 设数列$\{f_i^k\}$是第$k$次操作后数字为$i$的概率，考虑到每次rand后数字不可能增大
 
 所以$f_i^{k+1}=\sum\limits_{j=i}^n\dfrac{f_{j}^{k}}{j+1}$，因为每个$f_i^k$都有$[0,i]$一共$i+1$种取值，其中有$\frac{1}{i+1}$概率选到特定的数
@@ -26,7 +32,7 @@ $m$次操作仅需$m$次幂即可
 
 $G=\sum g_ix^i=\sum f_i(x+1)^i=\sum f_i\sum\binom{i}{j}x^i$提取一下
 
-$g_i=\sum\limits_{j=i}^n\binom{i}{j}f_j$
+$g_i=\sum\limits_{j=i}^n\binom{j}{i}f_j$
 
 反演一下
 
@@ -35,7 +41,7 @@ $f_i=\sum\limits_{j=i}^n(-1)^{j-i}\binom{j}{i}g_j$
 结束啦~~
 
 ```cpp
-#include "Polynomial.cpp"
+#include "Polynomial.h"
 #include <iostream>
 using namespace std;
 using namespace Poly;
@@ -87,4 +93,3 @@ int main() {
     }
 }
 ```
-
