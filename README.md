@@ -1,12 +1,12 @@
 ### [YCS_GG](https://www.luogu.com.cn/user/46099)的做题记录
 
 #### Updates:
-- 2021.03.20 [CF997E](archieve/CF997E/Solution.md)
+- 2021.03.20 [CF997E](archieve/CF997E/Solution.md) [Luogu6620](archieve/Luogu6620/Solution.md)
 - 2021.03.19 [CF526F](archieve/CF526F/Solution.md)
 - 2021.03.18 [Luogu4747](archieve/Luogu4747/Solution.md)
 - 2021.03.17 [Luogu4192](archieve/Luogu4192/Solution.md)
 - 2021.03.16 [CF889E](archieve/CF889E/Solution.md)
-- 2021.03.15 [CF446C](archieve/CF466C/Solution.md) [Luogu6620](archieve/Luogu6620/Solution.md)
+- 2021.03.15 [CF446C](archieve/CF466C/Solution.md) [Luogu3193](archieve/Luogu3193/Solution.md)
 - 2021.03.14 [CF717A](archieve/CF717A/Solution.md) [Luogu4688](archieve/Luogu4688/Solution.md)
 - 2021.03.13 [AT3981](archieve/AT3981/Solution.md) [Luogu3175](archieve/Luogu3175/Solution.md)
 - 2021.03.12 [CF757E](archieve/CF757E/Solution.md) [Luogu4834](archieve/Luogu4834/Solution.md)
@@ -26,6 +26,7 @@
 
 #### Todo:
 - Solution:[Luogu4717](archieve/Luogu4717/Solution.md) [CF896E](archieve/CF896/Solution.md)
+- Solution:[Luogu6620](archieve/Luogu6620/Solution.md)
 
 #### Solved:
 - [AT2363](archieve/AT2363/Solution.md)
@@ -107,10 +108,11 @@
 - [Luogu3175](archieve/Luogu3175/Solution.md)
 - [CF717A](archieve/CF717A/Solution.md)
 - [Luogu4688](archieve/Luogu4688/Solution.md)
-- [Luogu6620](archieve/Luogu6620/Solution.md)
+- [Luogu3193](archieve/Luogu3193/Solution.md)
 - [CF446C](archieve/CF466C/Solution.md)
 - [CF889E](archieve/CF889E/Solution.md)
 - [Luogu4192](archieve/Luogu4192/Solution.md)
 - [Luogu4747](archieve/Luogu4747/Solution.md)
 - [CF526F](archieve/CF526F/Solution.md)
 - [CF997E](archieve/CF997E/Solution.md)
+- [Luogu6620](archieve/Luogu6620/Solution.md)
