@@ -26,7 +26,6 @@
 
 #### Todo:
 - Solution:[Luogu4717](archieve/Luogu4717/Solution.md) [CF896E](archieve/CF896/Solution.md)
-- Solution:[Luogu6620](archieve/Luogu6620/Solution.md)
 
 #### Solved:
 - [AT2363](archieve/AT2363/Solution.md)
