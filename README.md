@@ -1,6 +1,7 @@
 ### [YCS_GG](https://www.luogu.com.cn/user/46099)的做题记录
 
 #### Updates:
+- 2021.05.16 [AT1978](archieve/AT1975/Solution.md) [CF578D](archieve/CF578D/Solution.md)
 - 2021.05.15 [AT4162](archieve/AT4162/Solution.md)
 - 2021.05.14 [AT2656](archieve/AT2656/Solution.md)
 - 2021.05.13 [AT3877](archieve/AT3877/Solution.md)
@@ -234,3 +235,5 @@
 - [AT4144](archieve/AT4144/Solution.md)
 - [AT3877](archieve/AT3877/Solution.md)
 - [AT2656](archieve/AT2656/Solution.md)
+- [AT1978](archieve/AT1975/Solution.md) 
+- [CF578D](archieve/CF578D/Solution.md)
