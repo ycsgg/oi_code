@@ -1,18 +1,13 @@
 #pragma once
 #include "Graph.hpp"
 #include <queue>
-namespace Dinic {
-struct Graph : public _Graph::_WGraph {
-    void add_flow(int u, int v, int w) {
-        add(u, v, w);
-        add(v, u, 0);
-    }
-};
-
+namespace NetworkFlow {
+using Graph = _Graph::Graph;
 class Dinic {
   private:
     Dinic();
     const static int INF = 0x3f3f3f3f;
+
   public:
     static int MaxFlow(const int S, const int T, Graph &G) {
         std::vector<int> level;
@@ -70,4 +65,4 @@ class Dinic {
         return res;
     }
 };
-} // namespace Dinic
+} // namespace NetworkFlow

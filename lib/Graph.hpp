@@ -43,4 +43,10 @@ struct _WCGraph {
         head[u] = edge.size() - 1;
     }
 };
+struct Graph : public _WGraph {
+    void add_flow(int u, int v, int w) {
+        add(u, v, w);
+        add(v, u, 0);
+    }
+};
 } // namespace _Graph
