@@ -2,7 +2,7 @@
 #include "Graph.hpp"
 #include <queue>
 namespace NetworkFlow {
-using Graph = _Graph::Graph;
+using Graph = _Graph_nxt::Graph;
 class Dinic {
   private:
     Dinic();
