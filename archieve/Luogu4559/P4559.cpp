@@ -6,7 +6,6 @@ const int N = 500005, M = 11000005;
 int rt[M], siz[M], lson[M], rson[M];
 long long sum[M];
 int cnt;
-//TODO:Solution
 void insert(int &u, int pre, int l, int r, int p) {
     u      = ++cnt;
     siz[u] = siz[pre] + 1;
