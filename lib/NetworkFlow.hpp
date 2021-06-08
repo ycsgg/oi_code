@@ -9,56 +9,57 @@ class Dinic {
     const static int INF = 0x3f3f3f3f;
 
   public:
-    static int MaxFlow(const int S, const int T, Graph &G) {
-        std::vector<int> level;
-        std::vector<int> cur;
-        static auto bfs = [&](const int S, const int T) -> bool {
-            level.assign(G.head.size() + 1, 0);
-            level[S] = 1;
-            std::queue<int> q;
-            q.push(S);
-            while (!q.empty()) {
-                int now = q.front();
-                q.pop();
-                for (int i = G.head[now]; ~i; i = G.edge[i].nxt) {
-                    int v = G.edge[i].v;
-                    if (!level[v] && G.edge[i].w) {
-                        level[v] = level[now] + 1;
-                        q.push(v);
-                    }
-                }
-            }
-            return level[T];
-        };
-        static auto dfs = [&](auto self, int x, const int T, int maxflow,
-                              Graph &G) -> int {
-            if (x == T) {
-                return maxflow;
-            }
-            int res = 0;
-            for (int &i = cur[x]; ~i && res < maxflow; i = G.edge[i].nxt) {
+    static std::vector<int> level;
+    static bool bfs(int S, int T, const Graph &G) {
+        level.assign(G.head.size(), 0);
+        level[S] = 1;
+        std::queue<int> q;
+        q.push(S);
+        while (!q.empty()) {
+            int now = q.front();
+            q.pop();
+            for (int i = G.head[now]; ~i; i = G.edge[i].nxt) {
                 int v = G.edge[i].v;
-                if (G.edge[i].w && level[v] == level[x] + 1) {
-                    int x = self(self, v, T,
-                                 std::min(G.edge[i].w, maxflow - res), G);
-                    if (x) {
-                        G.edge[i].w -= x;
-                        G.edge[i ^ 1].w += x;
-                        res += x;
-                    }
+                if (!level[v] && G.edge[i].w) {
+                    level[v] = level[now] + 1;
+                    q.push(v);
                 }
             }
-            if (res < maxflow) {
-                level[x] = -1;
+        }
+        return level[T];
+    }
+    static std::vector<int> cur;
+    static int dfs(int x, int T, int maxflow, Graph &G) {
+        if (x == T) {
+            return maxflow;
+        }
+        int res = 0;
+        for (int i = cur[x]; ~i && res < maxflow; i = G.edge[i].nxt) {
+            cur[x] = i;
+            int v  = G.edge[i].v;
+            if (G.edge[i].w && level[v] == level[x] + 1) {
+                int x = dfs(v, T, std::min(G.edge[i].w, maxflow - res), G);
+                if (x) {
+                    G.edge[i].w -= x;
+                    G.edge[i ^ 1].w += x;
+                    res += x;
+                }
             }
-            return res;
-        };
+        }
+        if (res < maxflow) {
+            level[x] = -1;
+        }
+        return res;
+    }
+    static int MaxFlow(const int S, const int T, const Graph &G) {
+        cur.resize(G.head.size());
+        level.resize(G.head.size());
         Graph tmpG = G;
         int res    = 0;
-        while (bfs(S, T)) {
-            cur.assign(G.head.begin(), G.head.end());
+        while (bfs(S, T, tmpG)) {
+            cur.assign(tmpG.head.begin(), tmpG.head.end());
             int x;
-            while (x = dfs(dfs, S, T, INF, G)) {
+            while (x = dfs(S, T, INF, tmpG)) {
                 res += x;
             }
         }
