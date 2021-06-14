@@ -2,6 +2,7 @@
 
 #### Updates:
 - 2021.06.13 [CF833B](archieve/CF833B/Solution.md) [Luogu3521](archieve/Luogu3521/Solution.md)
+[CF895C](archieve/CF895C/Solution.md)
 - 2021.06.12 [Luogu1712](archieve/Luogu1712/Solution.md) [CF817F](archieve/CF817F/Solution.md)
 - 2021.06.11 [UOJ117](archieve/UOJ117/Solution.md) [Luogu3644](archieve/Luogu3644/Solution.md) [Luogu4246](archieve/Luogu4246/Solution.md)
 - 2021.06.10 [Luogu4049](archieve/Luogu4049/Solution.md) [Luogu3511](archieve/Luogu3511/Solution.md)
@@ -310,3 +311,4 @@
 - [CF817F](archieve/CF817F/Solution.md)
 - [CF833B](archieve/CF833B/Solution.md)
 - [Luogu3521](archieve/Luogu3521/Solution.md)
+- [CF895C](archieve/CF895C/Solution.md)
