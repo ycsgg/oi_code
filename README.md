@@ -1,6 +1,7 @@
 ### [YCS_GG](https://www.luogu.com.cn/user/46099)的做题记录
 
 #### Updates:
+- 2021.06.14 [Luogu3605](archieve/Luogu3605/Solution.md) [Luogu1971](archieve/Luogu1971/Solution.md)
 - 2021.06.13 [CF833B](archieve/CF833B/Solution.md) [Luogu3521](archieve/Luogu3521/Solution.md)
 [CF895C](archieve/CF895C/Solution.md)
 - 2021.06.12 [Luogu1712](archieve/Luogu1712/Solution.md) [CF817F](archieve/CF817F/Solution.md)
@@ -97,7 +98,6 @@
 - 2021.02.26 添加ondrive里的旧题
 
 #### Todo:
-- Solution: [CF1073G](archieve/CF1073G/Solution.md)
 
 #### Solved:
 - [AT2363](archieve/AT2363/Solution.md)
@@ -312,3 +312,4 @@
 - [CF833B](archieve/CF833B/Solution.md)
 - [Luogu3521](archieve/Luogu3521/Solution.md)
 - [CF895C](archieve/CF895C/Solution.md)
+- [Luogu1971](archieve/Luogu1971/Solution.md)
