@@ -4,3 +4,4 @@
 *.tar
 /old
 *.tmpout
+/lib/*.cpp
