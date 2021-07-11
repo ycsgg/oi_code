@@ -1,6 +1,7 @@
 ### [YCS_GG](https://www.luogu.com.cn/user/46099)的做题记录
 
 #### Updates:
+- 2021.07.10 [Luogu4606](archieve/Luogu4606/Solution.md) [Luogu4631](archieve/Luogu4631/Solution.md)
 - 2021.07.09 [CF398E](archieve/CF398E/Solution.md) [CF1528E](archieve/CF1528E/Solution.md)
 - 2021.07.08 [CF1107E](archeive/CF1107E/Solution.md) [Luogu4859](archieve/Luogu4859/Solution.md)
 - 2021.07.07 [Luogu5336](archieve/Luogu5336/Solution.md) [Gym103119A](archieve/Gym103119A/Solution.md)
@@ -125,4 +126,4 @@
 #### Todo:
 
 [Luogu6776](archieve/Luogu6776/Solution.md) 需画图
-[7.6] 需题解
+[7.6]-[7.10] 
