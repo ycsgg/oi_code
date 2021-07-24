@@ -2,6 +2,7 @@
 *.out
 *.sh
 *.tar
+*.zPoiiari32_azl
 /old
 *.tmpout
 /lib/*.cpp

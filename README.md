@@ -1,6 +1,10 @@
 ### [YCS_GG](https://www.luogu.com.cn/user/46099)的做题记录
 
 #### Updates:
+- 2021.07.23 [CF1043F](archieve/CF1043F/CF1043F.cpp) [CF314E](archieve/CF314E/Solution.md)
+- 2021.07.22 [Luogu5296](archieve/Luogu5296/Solution.md)
+- 2021.07.21 [Luogu5295](archieve/Luogu5295/Solution.md)
+- 2021.07.20 [Luogu3317](archieve/Luogu3317/Solution.md)
 - 2021.07.18 [Luogu3264](archieve/Luogu3264/Solution.md) [Luogu4336](archieve/Luogu4336/Solution.md) [Luogu7112](archieve/Luogu7112/Solution.md)
 - 2021.07.15 [Luogu1587](archieve/Luogu1587/Solution.md) [Luogu2766](archieve/Luogu2766/Solution.md) [Luogu3358](archieve/Luogu3358/Solution.md) [Luogu4307](archieve/Luogu4307/Solution.md) [Luogu3305](archieve/Luogu5258/Solution.md)
 - 2021.07.14 [Luogu3305](archieve/Luogu3305/Solution.md) [Luogu2762](archieve/Luogu2762/Solution.md)
