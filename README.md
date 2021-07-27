@@ -1,6 +1,7 @@
 ### [YCS_GG](https://www.luogu.com.cn/user/46099)的做题记录
 
 #### Updates:
+懒得写了，看心情吧（理直气壮）
 - 2021.07.23 [CF1043F](archieve/CF1043F/CF1043F.cpp) [CF314E](archieve/CF314E/Solution.md)
 - 2021.07.22 [Luogu5296](archieve/Luogu5296/Solution.md)
 - 2021.07.21 [Luogu5295](archieve/Luogu5295/Solution.md)
