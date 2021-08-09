@@ -3,6 +3,10 @@
 #### Updates:
 Only Code:
 - [Lougu3349]
+- [CF932E]
+- [Luogu5162]
+- [Luogu5206]
+- [UOJ310]
 - [CF1097D]
 - [Luogu3272]
 - [Luogu3643]
