@@ -3,6 +3,10 @@
 #### Updates:
 Only Code:
 - [Lougu3349]
+- [CF24D]
+- [CF802L]
+- [CF917D]
+- [CF1556E]
 - [CF559C]
 - [CF1110D]
 - [Luogu2497]
