@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 using namespace std;
-
+namespace Debug{
 #define LOCAL
 
 typedef long long ll;
@@ -153,3 +153,4 @@ template <class H, class... T> void DBG(H h, T... t) {
              << "\n",                                                          \
             exit(0);
 #endif
+}
